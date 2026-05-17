@@ -103,8 +103,8 @@ Open the `.rmp` files in `rapidminer/` with **RapidMiner Studio**.
 
 The complete graduation report is available here:
 
-- 📄 [`report/Superstore_Analytics_Defense_Deck.pptx`](report/Superstore_Analytics_Defense_Deck.pptx) — preview directly in the browser.
-- 📝 [`report/Superstore_Analytics_Graduation_Report.docx`](report/Superstore_Analytics_Graduation_Report.docx) — Word document (download to view).
+- 📄 [`Report/Superstore_Analytics_Defense_Deck.pptx`](Report/Superstore_Analytics_Defense_Deck.pptx) — preview directly in the browser.
+- 📝 [`Report/Superstore_Analytics_Graduation_Report.docx`](Report/Superstore_Analytics_Graduation_Report.docx) — Word document (download to view).
 
 The end-to-end workflow is illustrated in **Figure 3.1** of the report.
 
