@@ -6,7 +6,6 @@
 ![Status](https://img.shields.io/badge/status-completed-success)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
@@ -37,52 +36,6 @@ The dataset (Kaggle "Superstore") covers 9,994 raw transactions across four U.S.
 | Random Forest accuracy | **94.4 %** |
 | Random Forest ROC-AUC | **0.984** |
 | Top predictor of profitability | Discount |
-
----
-
-## 📁 Repository Structure
-
-```
-Superstore-Analytics/
-│
-├── README.md                       <- This file
-├── LICENSE                         <- MIT license
-├── .gitignore                      <- Files Git should ignore
-├── requirements.txt                <- Python dependencies
-│
-├── data/
-│   ├── raw/                        <- Original Superstore CSV (untouched)
-│   └── processed/                  <- Clean_Superstore.csv (validated)
-│
-├── notebooks/                      <- Jupyter notebooks (run in order)
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_prophet_forecast.ipynb
-│   ├── 04_rfm_segmentation.ipynb
-│   └── 05_classification.ipynb
-│
-├── src/                            <- Reusable Python modules
-│   ├── __init__.py
-│   ├── cleaning.py
-│   └── modeling.py
-│
-├── charts/                         <- Saved figures (PNG) used in the report
-│
-├── dashboard/                      <- Power BI dashboard
-│   └── Superstore_Dashboard.pbix
-│
-├── rapidminer/                     <- RapidMiner workflow files (.rmp)
-│
-├── ai_model/                       <- Trained model artefacts (.pkl, .joblib)
-│
-├── report/                         <- Final report and presentation
-│   ├── Superstore_Analytics_Graduation_Report.docx
-│   ├── Superstore_Analytics_Graduation_Report.pdf
-│   └── Superstore_Analytics_Defense_Deck.pptx
-│
-└── docs/                           <- Extra documentation
-    └── GitHub_Upload_Guide.docx
-```
 
 ---
 
@@ -148,11 +101,10 @@ Open the `.rmp` files in `rapidminer/` with **RapidMiner Studio**.
 
 ## 📖 Read the Report
 
-The complete graduation report is available in two formats:
+The complete graduation report is available here:
 
 - 📄 [`report/Superstore_Analytics_Graduation_Report.pdf`](report/Superstore_Analytics_Graduation_Report.pdf) — preview directly in the browser.
 - 📝 [`report/Superstore_Analytics_Graduation_Report.docx`](report/Superstore_Analytics_Graduation_Report.docx) — Word document (download to view).
-- 🎤 [`report/Superstore_Analytics_Defense_Deck.pptx`](report/Superstore_Analytics_Defense_Deck.pptx) — defense presentation.
 
 The end-to-end workflow is illustrated in **Figure 3.1** of the report.
 
@@ -174,7 +126,3 @@ The end-to-end workflow is illustrated in **Figure 3.1** of the report.
 We thank Dr. Ayman Mansour for his guidance throughout the project, the academic staff of the Department of Business Intelligence and Data Analysis, and the lab technicians who supported every stage of the work.
 
 ---
-
-## 📬 Contact
-
-For questions about this project, please open a [GitHub issue](../../issues) or contact the authors.
